@@ -52,8 +52,8 @@ public class ShiroTest {
     @Test
     public void test2(){
        // cmpUserExpressService.getById(1);
-        CmpUser user = userService.findByAccount("admin");
-        System.out.println(user);
+            CmpUser user = userService.findByAccount("admin");
+            System.out.println(user);
 /*        CmpUser user1 =   userMapper.selectById(1);
         System.out.println(user1);*/
     }
